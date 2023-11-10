@@ -24,5 +24,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            "vocovo/docker-mosquitto:${{ github.sha }}"
-            "vocovo/docker-mosquitto:latest"
+            "johnmagtoto1/docker-mosquitto:${{ github.sha }}"
